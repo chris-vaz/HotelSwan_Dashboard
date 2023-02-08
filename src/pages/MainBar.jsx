@@ -22,9 +22,9 @@ const MainBar = () => {
                                 <div class="minibox">31</div>
                                 <p class="box-text">Booked</p>
                             </div>
-                            <div id="margin-fix">
-                                <div class="minibox">19</div>
-                                <p class="box-text">Check-In</p>
+                            <div>
+                                <div class="minibox2">19</div>
+                                <p class="box-text">Check in</p>
                             </div>
                         </div>
                         <p>Saint Denis</p>
@@ -38,8 +38,8 @@ const MainBar = () => {
                                 <p class="box-text">Booked</p>
                             </div>
                             <div id="margin-fix">
-                                <div class="minibox">5</div>
-                                <p class="box-text">Check-In</p>
+                                <div class="minibox2">5</div>
+                                <p class="box-text">Check in</p>
                             </div>
                         </div>
                         <p>Blackwater</p>

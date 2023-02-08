@@ -12,11 +12,11 @@ const SideBar = () => {
                 </div>
 
                 <div class="sidebar-options">
-                    <p><span><ion-icon name="bar-chart-outline"></ion-icon></span>Overview</p>
-                    <p><span><ion-icon name="bar-chart-outline"></ion-icon></span>Calendar</p>
-                    <p><span><ion-icon name="bar-chart-outline"></ion-icon></span>Booking</p>
-                    <p><span><ion-icon name="bar-chart-outline"></ion-icon></span>Earnings</p>
-                    <p><span><ion-icon name="bar-chart-outline"></ion-icon></span>Stuff</p>
+                    <div><p><span><ion-icon name="bar-chart-outline"></ion-icon></span>Overview</p></div>
+                    <div><p><span><ion-icon name="bar-chart-outline"></ion-icon></span>Calendar</p></div>
+                    <div><p><span><ion-icon name="bar-chart-outline"></ion-icon></span>Booking</p></div>
+                    <div><p><span><ion-icon name="bar-chart-outline"></ion-icon></span>Earnings</p></div>
+                    <div><p><span><ion-icon name="bar-chart-outline"></ion-icon></span>Stuff</p></div>
                 </div>
 
                 <div class="settings">

@@ -1,6 +1,6 @@
 # Hotel Swan Dashboard Design to Developement
 
-This project was a development based on the design from (https://dribbble.com/shots/17630628-Hotel-Swan-Dashboard-Design-for-Hotel)
+This project was a development based on the design from - [https://dribbble.com/shots/17630628-Hotel-Swan-Dashboard-Design-for-Hotel](https://dribbble.com/shots/17630628-Hotel-Swan-Dashboard-Design-for-Hotel)
 
 ## Running the Project
 

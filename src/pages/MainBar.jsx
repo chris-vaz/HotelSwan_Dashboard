@@ -53,7 +53,7 @@ const MainBar = () => {
                 </div>
 
                 <div class="object-overview">
-                    <p>Object Overview</p>
+                    <p class="oo-text">Object Overview</p>
                 </div>
             </div>
         </>

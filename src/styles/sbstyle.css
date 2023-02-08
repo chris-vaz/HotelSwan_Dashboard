@@ -1,9 +1,81 @@
-.side-container{
-    background-color:white;
+.side-container {
+    background-color: white;
     height: 94vh;
-    width:17%;
-    margin-left:18px;
-    margin-top:15px;
-    padding-left:5px;
-    border-radius:40px;
+    width: 17%;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-left: 5px;
+    border-radius: 40px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
 }
+
+.hslogo {
+    width: 208px;
+    height: 54px;
+    align-items: center;
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.sidebar-options {
+    color: #7A8491;
+    display: flex;
+    flex-direction: column;
+    margin-left:26%;
+    align-items: flex-start;
+}
+
+.sidebar-options p {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.sidebar-options span {
+    padding-right: 15px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.settings {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.setting-icon {
+    background-color: #FFE3E9;
+    /* display: inline; */
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+
+}
+
+.setting-icon ion-icon {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 14px;
+}
+
+.setting-text {
+    background-color: #cecdcd;
+    width: 125px;
+    text-align: center;
+    border-radius: 42px;
+}
+
+/* #stack-1{
+    display:flex;
+} */

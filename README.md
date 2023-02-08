@@ -6,6 +6,7 @@ This project was a development based on the design from - [https://dribbble.com/
 
 To run and view the project, you can run the following command:
 
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.\

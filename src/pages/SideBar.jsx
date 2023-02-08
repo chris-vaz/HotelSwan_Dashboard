@@ -3,7 +3,7 @@ import sbstyle from '../styles/sbstyle.css'
 
 const SideBar = () => {
     return (
-        <div class="container">
+        <div class="side-container">
             SideBar
         </div>
     )

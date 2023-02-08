@@ -13,3 +13,6 @@ body,
 body{
   background-color:#e8e8e8;
 }
+.App{
+  display:flex;
+}

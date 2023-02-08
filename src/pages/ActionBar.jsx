@@ -4,7 +4,7 @@ import abstyle from '../styles/abstyle.css'
 const ActionBar = () => {
     return (
         <div class="action-container">
-            ActionBar
+            Action Bar
         </div>
     )
 }

@@ -5,10 +5,10 @@ import hslogo from '../assets/hs-logo.png'
 const SideBar = () => {
     return (
         <>
-        <div class="side-container">
+            <div class="side-container">
 
                 <div class="center-div">
-                <img src={hslogo} alt="Hotel Swan Logo" class="hslogo" />
+                    <img src={hslogo} alt="Hotel Swan Logo" className="hslogo" />
                 </div>
 
                 <div class="sidebar-options">
@@ -24,7 +24,7 @@ const SideBar = () => {
                     <div class="setting-text"><p>Settings</p></div>
                 </div>
 
-        </div>
+            </div>
         </>
     )
 }

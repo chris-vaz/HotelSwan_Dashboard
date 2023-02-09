@@ -2,7 +2,10 @@ import React from 'react'
 import abstyle from '../styles/abstyle.css'
 import avatar1 from '../assets/avatar-1.png'
 import avatar2 from '../assets/avatar-2.png'
+import avatar3 from '../assets/avatar-3.png'
+import avatar4 from '../assets/avatar-4.png'
 import wallpaper from '../assets/wallpaper.png'
+import nfwallpaper from '../assets/nf-wallpaper.png'
 
 const ActionBar = () => {
     return (
@@ -26,46 +29,50 @@ const ActionBar = () => {
 
                     <div id="flex-items-row">
                         <img src={avatar2} alt="Avatar-2-PFP" class="avatar-2"></img>
-                        <div>
-                            <p>Wade Warren</p>
-                            <p>#SGL <ion-icon name="ellipse"></ion-icon> 0 guests</p>
+                        <div id="flex-secondary">
+                            <div id="flex-content">
+                                <p class="name">Wade Warren</p>
+                                <p class="code1">#QDPL <ion-icon name="ellipse"></ion-icon> 0 guests</p>
+                            </div>
+                            <div id="flex-content2">
+                                <p class="name">01.12-01.13 </p>
+                                <p class="code2">Paid</p>
+                            </div>
                         </div>
-                        <div>
-                            <p>01.12-01.14 </p>
-                            <button>Paid</button>
-                        </div>
-
                     </div>
                     <div id="flex-items-row">
-                        <img src={avatar2} alt="Avatar-2-PFP" class="avatar-2"></img>
-                        <div>
-                            <p>Jacob Jones</p>
-                            <p>#SGL <ion-icon name="ellipse"></ion-icon> 0 guests</p>
+                        <img src={avatar3} alt="Avatar-3-PFP" class="avatar-2"></img>
+                        <div id="flex-secondary">
+                            <div id="flex-content">
+                                <p class="name">Jacob Jones</p>
+                                <p class="code1">#QDPL <ion-icon name="ellipse"></ion-icon> 0 guests</p>
+                            </div>
+                            <div id="flex-content2up">
+                                <p class="up-name">01.12-01.13 </p>
+                                <p class="up-code2">Unpaid</p>
+                            </div>
                         </div>
-                        <div>
-                            <p>01.12-01.14 </p>
-                            <button>Paid</button>
-                        </div>
-
                     </div>
-                    <div id="flex-items-row">
-                        <img src={avatar2} alt="Avatar-2-PFP" class="avatar-2"></img>
-                        <div>
-                            <p>Kathryn Murphy</p>
-                            <p>#SGL <ion-icon name="ellipse"></ion-icon> 0 guests</p>
-                        </div>
-                        <div>
-                            <p>01.12-01.14 </p>
-                            <button>Paid</button>
-                        </div>
 
+                    <div id="flex-items-row">
+                        <img src={avatar4} alt="Avatar-4-PFP" class="avatar-2"></img>
+                        <div id="flex-secondary">
+                            <div id="flex-content">
+                                <p class="name">Kathryn Murphy</p>
+                                <p class="code1">#QDPL <ion-icon name="ellipse"></ion-icon> 0 guests</p>
+                            </div>
+                            <div id="flex-content2">
+                                <p class="name">01.12-01.13 </p>
+                                <p class="code2">Paid</p>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="view-all">View All</div>
 
                     <div class="unlock-section">
-                        <p>Unlock new features</p>
-                        <button>Get Pro Now!</button>
+                        <p class="pro-text">UNLOCK NEW FEATURES</p>
+                        <button class="get-pro">Get Pro Now!</button>
                     </div>
                 </div>
             </div>

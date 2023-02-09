@@ -32,10 +32,10 @@ const ActionBar = () => {
                             <div id="flex-secondary">
                                 <div id="flex-content">
                                     <p class="name">Wade Warren</p>
-                                    <p class="code1">#QDPL <ion-icon name="ellipse"></ion-icon> 0 guests</p>
+                                    <p class="code1">#SGL <ion-icon name="ellipse"></ion-icon> 0 guests</p>
                                 </div>
                                 <div id="flex-content2">
-                                    <p class="name" id="fw-change">01.12-01.13 </p>
+                                    <p class="name" id="fw-change">01.12-01.14 </p>
                                     <p class="code2">Paid</p>
                                 </div>
                             </div>
@@ -64,10 +64,10 @@ const ActionBar = () => {
                             <div id="flex-secondary">
                                 <div id="flex-content">
                                     <p class="name">Kathryn Murphy</p>
-                                    <p class="code1">#QDPL <ion-icon name="ellipse"></ion-icon> 0 guests</p>
+                                    <p class="code1">#DBL <ion-icon name="ellipse"></ion-icon> 0 guests</p>
                                 </div>
                                 <div id="flex-content2">
-                                    <p class="name" id="fw-change">01.12-01.13 </p>
+                                    <p class="name" id="fw-change">01.12-01.15 </p>
                                     <p class="code2">Paid</p>
                                 </div>
                             </div>

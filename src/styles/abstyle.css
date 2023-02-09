@@ -1,7 +1,8 @@
 .action-container {
     /* background-color: #FFE3BB; */
     height: auto;
-    width: 27.36%;
+    width: 24.36%;
+    margin-left:23px;
     overflow:hidden;
 }
 
@@ -114,6 +115,7 @@
 
 .code1 {
     margin-top: 0;
+    color:#848FA0;
 }
 
 .code2 {
@@ -235,13 +237,14 @@
 
 #fw-change{
     font-weight:500;
+    color:#848FA0;
 }
 .hr-style-users{
     color:#D9D9D9;
     width:87%;
     margin-top:-4px;
     border-radius:5px;
-    border:2px solid #d6d6d6;
+    border:1.5px solid #d6d6d6;
 }
 .hr-style-users2{
     color:#D9D9D9;
@@ -249,5 +252,5 @@
     margin-top:-4px;
     margin-bottom:0px;
     border-radius:5px;
-    border:2px solid #d6d6d6;
+    border:1.5px solid #d6d6d6;
 }

@@ -31,7 +31,7 @@ const MainBar = () => {
                     </div>
                     <div class="grid-item2">
                         <span id="icon-fix2"><ion-icon name="arrow-down-outline"></ion-icon></span>
-                        <p class="percent-text2">4%</p>
+                        <p class="percent-text2">6%</p>
                         <div id="flexbox">
                             <div>
                                 <div class="minibox">8</div>

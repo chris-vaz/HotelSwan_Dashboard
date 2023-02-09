@@ -2,7 +2,8 @@
     /* background-color: #E8E8E8; */
     height: auto;
     margin-top: 15px;
-    width: 50%;
+    width: 52%;
+    margin-left:25px;
     overflow:hidden;
 }
 
@@ -59,7 +60,7 @@
 }
 
 .grid-item1 {
-    background-color: #FFE8C8;
+    background-color: #ffedd4;
     width: 140px;
     height: 140px;
     margin-left: -4px;
@@ -67,7 +68,7 @@
 }
 
 .grid-item2 {
-    background-color: #DFBEFE;
+    background-color: #ecd7ff;
     width: 140px;
     height: 140px;
     border-radius: 27px;

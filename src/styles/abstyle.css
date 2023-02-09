@@ -1,5 +1,96 @@
-.action-container{
-    background-color:#FFE3BB;
+.action-container {
+    background-color: #FFE3BB;
     height: 100vh;
-    width:30%;
+    width: 28.36%;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#align-1 {
+    display: flex;
+}
+
+.notification-icon {
+    background-color: white;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.notification-icon ion-icon {
+    font-size: 23px;
+    margin-left: 9px;
+    margin-top: 9px;
+}
+
+.avatar-1 {
+    width: 52px;
+    height: 52px;
+    margin-top: 9.5px;
+}
+
+.avatar-name {
+    margin-top: 24px;
+    margin-right: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.wallpaper {
+    width: 76%;
+    height: 250px;
+    margin-top: 35px;
+    border-radius: 30px;
+}
+
+#center-div {
+    display: flex;
+    justify-content: center;
+}
+
+.list-heading-section {
+    display: flex;
+    gap: 105px;
+    align-items: stretch;
+    margin-top: 28px;
+    justify-content: space-around;
+}
+
+.bl-text {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.list-heading-section ion-icon {
+    font-size: 32px;
+}
+
+.avatar-2 {
+    width: 52px;
+    height: 52px;
+}
+
+#flex-items-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.view-all {
+    display: flex;
+    justify-content: center;
+}
+
+.unlock-section {
+    width: 76%;
+    height: 180px;
+    margin-top: 35px;
+    border-radius: 30px;
+    background-color: darkkhaki;
+    margin-left: auto;
+    margin-right: auto;
 }

@@ -3,16 +3,18 @@
 
 html,
 body,
-#root, 
+#root,
 .app,
-.content{
+.content {
   height: 100%;
   width: 100%;
   font-family: 'Poppins';
 }
-body{
-  background-color:#e8e8e8;
+
+body {
+  background-color: #e8e8e8;
 }
-.App{
-  display:flex;
+
+.App {
+  display: flex;
 }

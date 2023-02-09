@@ -1,13 +1,14 @@
 .main-container {
-    background-color: #E8E8E8;
-    height: 94vh;
+    /* background-color: #E8E8E8; */
+    height: auto;
     margin-top: 15px;
-    width: 49%;
+    width: 50%;
+    overflow:hidden;
 }
 
 .search-section {
-    margin-top:28px;
-    margin-left:35px;
+    margin-top: 31px;
+    margin-left: 35px;
     display: flex;
     align-items: center;
     gap: 18px;
@@ -22,20 +23,20 @@
 }
 
 .welcome {
-    margin-left:37px;
-    font-size: 56px;
+    margin-left: 37px;
+    font-size: 52px;
     font-weight: 600;
-    margin-top:0;
+    margin-top: 0;
 }
 
 .hr-style {
-    width:90%;
+    width: 90%;
     border: 2px solid #D9D9D9;
 }
 
 .statement1 {
     margin-top: -7vh;
-    margin-left:41px;
+    margin-left: 41px;
 }
 
 .underline {
@@ -49,124 +50,139 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-.grid-item1, .grid-item2, .grid-item3 {
+.grid-item1,
+.grid-item2,
+.grid-item3 {
     text-align: center;
     padding: 20px;
-    margin-top:10px;
+    margin-top: 10px;
 }
 
-.grid-item1{
-    background-color:#FFE8C8;
-    width:140px;
-    height:140px;
-    margin-left:-4px;
-    border-radius:27px;
+.grid-item1 {
+    background-color: #FFE8C8;
+    width: 140px;
+    height: 140px;
+    margin-left: -4px;
+    border-radius: 27px;
 }
-.grid-item2{
-    background-color:#DFBEFE;
-    width:140px;
-    height:140px;
-    border-radius:27px;
+
+.grid-item2 {
+    background-color: #DFBEFE;
+    width: 140px;
+    height: 140px;
+    border-radius: 27px;
 }
-.grid-item3{
+
+.grid-item3 {
     border: 2px dashed #848FA0;
-    width:140px;
-    height:140px;
-    border-radius:27px;
+    width: 140px;
+    height: 140px;
+    border-radius: 27px;
 }
-#flexbox{
-    display:flex;
-    gap:12px;
+
+#flexbox {
+    display: flex;
+    gap: 12px;
     justify-content: space-between;
-    margin-left:0;
+    margin-left: 0;
 }
-.minibox{
-    width:56px;
-    height:45px;
-    background-color:white;
-    border-radius:9px;
-    font-weight:600;
-    font-size:22px;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.minibox2{
-    width:56px;
-    height:45px;
-    background-color:white;
-    border-radius:9px;
-    font-weight:600;
-    margin-left:3px;
-    font-size:22px;
-    display:flex;
+
+.minibox {
+    width: 56px;
+    height: 45px;
+    background-color: white;
+    border-radius: 9px;
+    font-weight: 600;
+    font-size: 22px;
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-
-.box-text{
-    font-size:14px;
-    margin-top:5px;
+.minibox2 {
+    width: 56px;
+    height: 45px;
+    background-color: white;
+    border-radius: 9px;
+    font-weight: 600;
+    margin-left: 3px;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.percent-text{
-    font-size:40px;
-    font-weight:500;
-    color:#E08C29;
-    margin-top:-18px;
-    margin-bottom:5px;
-}
-.percent-text2{
-    font-size:40px;
-    font-weight:500;
-    color:#8444C2;
-    margin-top:-18px;
-    margin-bottom:5px;
+
+.box-text {
+    font-size: 14px;
+    margin-top: 5px;
 }
 
-#icon-fix{
-    font-size:20px;
-    color:#E08C29;
-    display:flex;
+.percent-text {
+    font-size: 40px;
+    font-weight: 500;
+    color: #E08C29;
+    margin-top: -18px;
+    margin-bottom: 5px;
+}
+
+.percent-text2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #8444C2;
+    margin-top: -18px;
+    margin-bottom: 5px;
+}
+
+#icon-fix {
+    font-size: 20px;
+    color: #E08C29;
+    display: flex;
     justify-content: flex-end;
 }
-#icon-fix2{
-    font-size:20px;
-    color:#8444C2;
-    display:flex;
+
+#icon-fix2 {
+    font-size: 20px;
+    color: #8444C2;
+    display: flex;
     justify-content: flex-end;
 }
-.add-object{
+
+.add-object {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top:28%;
-    color:#848FA0;
+    margin-top: 28%;
+    color: #848FA0;
 }
-.add-object ion-icon{
-    font-size:35px;
-    font-weight:bold;
+
+.add-object ion-icon {
+    font-size: 35px;
+    font-weight: bold;
 }
-.add-text{
-    color:#848FA0;
-    font-weight:500;
-    font-size:17px;
-    margin-top:8px;
+
+.add-text {
+    color: #848FA0;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 8px;
 }
-.object-overview{
-    background-color:white;
-    width:90.5%;
-    height:275px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:60px;
-    border-radius:42px;
+
+.object-overview {
+    background-color: white;
+    width: 90.8%;
+    height: 288px;
+    box-shadow: 0px 4px 120px rgba(0, 0, 0, 0.05);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    border-radius: 42px;
 }
-.oo-text{
-    color:black;
-    font-weight:600;
-    font-size:18px;
-    margin-left:35px;
-    padding-top:25px;
+
+.oo-text {
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 35px;
+    padding-top: 25px;
 }

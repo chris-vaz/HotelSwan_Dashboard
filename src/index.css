@@ -12,9 +12,32 @@ body,
 }
 
 body {
+  overflow-x: hidden;
   background-color: #e8e8e8;
 }
 
 .App {
   display: flex;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius:7px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: navy;
 }

@@ -19,57 +19,62 @@ const ActionBar = () => {
                             <div><img src={avatar1} alt="Avatar-1 PFP" class="avatar-1" /></div>
                         </div>
                     </div>
+                    <div id="border-outline">
+                        <div id="center-div"><img src={wallpaper} alt="Wallpaper Display" class="wallpaper" /></div>
 
-                    <div id="center-div"><img src={wallpaper} alt="Wallpaper Display" class="wallpaper" /></div>
+                        <div class="list-heading-section">
+                            <div class="bl-text">Booking List</div>
+                            <div><ion-icon name="ellipsis-horizontal-outline"></ion-icon></div>
+                        </div>
 
-                    <div class="list-heading-section">
-                        <div class="bl-text">Booking List</div>
-                        <div><ion-icon name="ellipsis-horizontal-outline"></ion-icon></div>
-                    </div>
-
-                    <div id="flex-items-row">
-                        <img src={avatar2} alt="Avatar-2-PFP" class="avatar-2"></img>
-                        <div id="flex-secondary">
-                            <div id="flex-content">
-                                <p class="name">Wade Warren</p>
-                                <p class="code1">#QDPL <ion-icon name="ellipse"></ion-icon> 0 guests</p>
-                            </div>
-                            <div id="flex-content2">
-                                <p class="name">01.12-01.13 </p>
-                                <p class="code2">Paid</p>
+                        <div id="flex-items-row">
+                            <img src={avatar2} alt="Avatar-2-PFP" class="avatar-2"></img>
+                            <div id="flex-secondary">
+                                <div id="flex-content">
+                                    <p class="name">Wade Warren</p>
+                                    <p class="code1">#QDPL <ion-icon name="ellipse"></ion-icon> 0 guests</p>
+                                </div>
+                                <div id="flex-content2">
+                                    <p class="name" id="fw-change">01.12-01.13 </p>
+                                    <p class="code2">Paid</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div id="flex-items-row">
-                        <img src={avatar3} alt="Avatar-3-PFP" class="avatar-2"></img>
-                        <div id="flex-secondary">
-                            <div id="flex-content">
-                                <p class="name">Jacob Jones</p>
-                                <p class="code1">#QDPL <ion-icon name="ellipse"></ion-icon> 0 guests</p>
-                            </div>
-                            <div id="flex-content2up">
-                                <p class="up-name">01.12-01.13 </p>
-                                <p class="up-code2">Unpaid</p>
+
+                        <hr class="hr-style-users"></hr>
+
+                        <div id="flex-items-row">
+                            <img src={avatar3} alt="Avatar-3-PFP" class="avatar-2"></img>
+                            <div id="flex-secondary">
+                                <div id="flex-content">
+                                    <p class="name">Jacob Jones</p>
+                                    <p class="code1">#QDPL <ion-icon name="ellipse"></ion-icon> 0 guests</p>
+                                </div>
+                                <div id="flex-content2up">
+                                    <p class="up-name" id="fw-change">01.12-01.13 </p>
+                                    <p class="up-code2">Unpaid</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div id="flex-items-row">
-                        <img src={avatar4} alt="Avatar-4-PFP" class="avatar-2"></img>
-                        <div id="flex-secondary">
-                            <div id="flex-content">
-                                <p class="name">Kathryn Murphy</p>
-                                <p class="code1">#QDPL <ion-icon name="ellipse"></ion-icon> 0 guests</p>
-                            </div>
-                            <div id="flex-content2">
-                                <p class="name">01.12-01.13 </p>
-                                <p class="code2">Paid</p>
+                        <hr class="hr-style-users2"></hr>
+
+                        <div id="flex-items-row2">
+                            <img src={avatar4} alt="Avatar-4-PFP" class="avatar-2"></img>
+                            <div id="flex-secondary">
+                                <div id="flex-content">
+                                    <p class="name">Kathryn Murphy</p>
+                                    <p class="code1">#QDPL <ion-icon name="ellipse"></ion-icon> 0 guests</p>
+                                </div>
+                                <div id="flex-content2">
+                                    <p class="name" id="fw-change">01.12-01.13 </p>
+                                    <p class="code2">Paid</p>
+                                </div>
                             </div>
                         </div>
+
+                        <div class="view-all">View All</div>
                     </div>
-
-                    <div class="view-all">View All</div>
-
                     <div class="unlock-section">
                         <p class="pro-text">UNLOCK NEW FEATURES</p>
                         <button class="get-pro">Get Pro Now!</button>

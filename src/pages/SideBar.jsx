@@ -21,7 +21,7 @@ const SideBar = () => {
 
                 <div class="settings">
                     <div class="setting-icon"><ion-icon name="bag-add-outline"></ion-icon></div>
-                    <div class="setting-text"><p>Settings</p></div>
+                    <div class="setting-text"><p><ion-icon name="settings-outline"></ion-icon>Settings</p></div>
                 </div>
 
             </div>
